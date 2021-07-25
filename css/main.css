@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Math&display=swap');
+body{
+    font-family: 'Red Hat Display', sans-serif;
+    overflow-x: hidden;
+}
+
+
+p{
+    font-family: 'STIX Two Math', serif;
+}
+
+/* top nav bar  */
+
+.top-header-title{
+color: #035755;
+}
+
+.top-nav-bar{
+    background-image: url(../images/path1470-4.png);
+    background-repeat: no-repeat;
+    background-attachment: absolute;
+    background-position: center right;
+    background-size: 120px 200px;
+
+
+}
+
+
+/* What is covid  */
+.what-is-covid{
+    background-image: url(../images/path1470-1.png),url(../images/path1470.png);
+    background-repeat: no-repeat;
+    background-attachment: absolute;
+    background-position: top right, bottom left ;
+    background-size: 150px 150px;
+
+
+}
+.rotate{
+    animation: rotation 5s infinite linear;
+}
+
+@keyframes rotation {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(359deg);
+    }
+    
+}
+.card:hover{
+    border-bottom: 5px solid #D9423D !important;
+}
+
+/* contagion */
+
+.contagion{
+
+    background-image: url(../images/path1470.png);
+    background-repeat: no-repeat;
+    background-attachment: absolute;
+    background-position: bottom left;
+}
+
+
+
+.Symptomps-covid{
+    
+    background-image: url(../images/path1470.png);
+    background-repeat: no-repeat;
+    background-attachment: absolute;
+    background-position: top right;
+
+}
+
+.wash-your-hand{
+    background-image: url(../images/path1470-5.png);
+    background-repeat: no-repeat;
+    background-attachment: absolute;
+    background-position: top left;
+}
+
+.use-nose-rag{
+    background-image: url(../images/path1470-3.png);
+    background-repeat: no-repeat;
+    background-attachment: absolute;
+    background-position: bottom right;
+}
+
+
+/* /avoid-contacts */
+
+
+.avoid-contacts
+{ background-image: url(../images/path1470-4.png);
+    background-repeat: no-repeat;
+    background-attachment: absolute;
+    background-position: bottom right;
+
+}
+
+/* subscrbe  */
+
+.subcribe{
+    background-image: url(../images/path1470-4.png);
+    background-repeat: no-repeat;
+    background-attachment: absolute;
+    background-position: bottom right;
+    background-size: 100px 150px;
+
+
+}
+input[type="email"], input[type="submit"] {
+    border-radius: 45px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+
+  input[type="email"]{
+    background-color: #ffffff;
+    border:  solid #ffffff;
+    color:#000000;
+    width: 25%;
+
+  }
+  
+  input[type="submit"] {
+    background-color: #D9423D;
+    border: solid #D9423D;
+    color: white;
+    margin-left: -80px;
+
+  }
+  
+  ::selection {
+    background-color: #D9423D;
+  }
+
+
+
+
+  /* text decoration  */
+
+  .footer-menu a{
+text-decoration: none;
+color: rgb(0, 0, 0);
+padding: 6px;
+  }
+
+
+  .social-media a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 6px;
+  }
+  @media only screen and (max-width:688px) {
+
+
+  input[type="email"]{
+    background-color: #ffffff;
+    border:  solid #ffffff;
+    color:#000000;
+    width: 75%;
+  }
+}
+
