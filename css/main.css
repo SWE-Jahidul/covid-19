@@ -14,7 +14,7 @@ p{
 /* top nav bar  */
 
 .top-header-title{
-color: #035755;
+    color: #035755;
 }
 
 .top-nav-bar{
@@ -23,10 +23,7 @@ color: #035755;
     background-attachment: absolute;
     background-position: center right;
     background-size: 120px 200px;
-
-
 }
-
 
 /* What is covid  */
 .what-is-covid{
@@ -53,6 +50,12 @@ color: #035755;
 }
 .card:hover{
     border-bottom: 5px solid #D9423D !important;
+}
+
+.card-img-top {
+
+    width: 60%;
+    height: 12vw;
 }
 
 /* contagion */
@@ -142,21 +145,23 @@ input[type="email"], input[type="submit"] {
     background-color: #D9423D;
   }
 
-
-
-
   /* text decoration  */
 
   .footer-menu a{
-text-decoration: none;
-color: rgb(0, 0, 0);
-padding: 6px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 6px;
   }
-
 
   .social-media a{
     text-decoration: none;
     color: rgb(0, 0, 0);
+    padding: 6px;
+  }
+
+  .social-media a:hover{
+    text-decoration: none;
+    color: rgb(226, 64, 64);
     padding: 6px;
   }
   @media only screen and (max-width:688px) {
@@ -168,5 +173,12 @@ padding: 6px;
     color:#000000;
     width: 75%;
   }
+
+
+  .card-img-top {
+
+    width: 70%;
+    height: 65vw;
+}
 }
 
